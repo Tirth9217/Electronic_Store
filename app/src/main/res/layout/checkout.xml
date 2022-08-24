@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="Checkout Form"
+        android:background="@color/orange"
+        android:textSize="25dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="206dp"
+                android:layout_height="53dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:text="BILLING DETAILS"
+                android:textColor="@color/white"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="427dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:text="Address"
+                android:textSize="20dp"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/editFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:foregroundTint="@color/black"
+                android:backgroundTint="@color/white"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editStreetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:foregroundTint="@color/black"
+                android:hint="Street Name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:foregroundTint="@color/black"
+                    android:backgroundTint="@color/white"
+
+                    android:ems="10"
+                    android:hint="City"
+                    android:inputType="textPersonName"
+
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/editProvince"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Province"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:foregroundTint="@color/black"
+                    android:backgroundTint="@color/white"
+
+                    />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editPostalCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:ems="10"
+                android:hint="Postal Code"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:foregroundTint="@color/black"
+                android:backgroundTint="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="20dp"
+                android:text="Payment Method" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/rdBtnCreditCard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:text="Credit Card" />
+
+
+
+                <RadioButton
+                    android:id="@+id/rdBtnDebit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:text="Debit Card" />
+
+                <RadioButton
+                    android:id="@+id/rdBtnCash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:background="@color/black"
+                    android:checked="true"
+                    android:text="Cash" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/textCView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:maxLength="16"
+                android:text="Credit Card Details"
+                android:textColor="@color/white" />
+            <TextView
+                android:id="@+id/textDView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@color/black"
+                android:layout_marginTop="20dp"
+                android:text="Debit Card Details" />
+
+            <EditText
+                android:id="@+id/editNameOnCCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:foregroundTint="@color/black"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Name As On Card"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <EditText
+                android:id="@+id/editCCardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:foregroundTint="@color/black"
+                android:hint="Card Number"
+                android:inputType="number"
+                android:maxLength="16"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editCExpiryDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="EXP DATE"
+                    android:inputType="date"
+                    android:minHeight="48dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:foregroundTint="@color/black"
+                    android:backgroundTint="@color/white"
+ />
+
+                <EditText
+                    android:id="@+id/editCCvv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="CVV"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:minHeight="48dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:foregroundTint="@color/black"
+                    android:backgroundTint="@color/white"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:backgroundTint="@color/orange"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../TirthNileshbhaiPatel_IndividualProject/TirthNileshbhaiPatel_individualProject/app/src/main/res/layout/checkout.xml" value="0.14855072463768115" />
+        <entry key="../../TirthNileshbhaiPatel_IndividualProject/TirthNileshbhaiPatel_individualProject/app/src/main/res/layout/list_main.xml" value="0.15443840579710144" />
+        <entry key="../../TirthNileshbhaiPatel_IndividualProject/TirthNileshbhaiPatel_individualProject/app/src/main/res/layout/myproduct.xml" value="0.14855072463768115" />
+        <entry key="../../TirthNileshbhaiPatel_IndividualProject/TirthNileshbhaiPatel_individualProject/app/src/main/res/layout/myproduct_rec.xml" value="0.14855072463768115" />
+        <entry key="../../TirthNileshbhaiPatel_IndividualProject/TirthNileshbhaiPatel_individualProject/app/src/main/res/layout/start_main.xml" value="0.14855072463768115" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.22035726686086707" />
+        <entry key="app/src/main/res/layout/activity_submitpage.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/cash_fragment.xml" value="0.24547101449275363" />
+        <entry key="app/src/main/res/layout/checkout.xml" value="0.24181360201511334" />
+        <entry key="app/src/main/res/layout/credit_fragment.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/debit_fragment.xml" value="0.24547101449275363" />
+        <entry key="app/src/main/res/layout/details.xml" value="0.24547101449275363" />
+        <entry key="app/src/main/res/layout/list_main.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/myproduct.xml" value="0.22826086956521738" />
+        <entry key="app/src/main/res/layout/myproduct_rec.xml" value="0.2545289855072464" />
+        <entry key="app/src/main/res/layout/prod.xml" value="0.22826086956521738" />
+        <entry key="app/src/main/res/layout/start_main.xml" value="0.23505434782608695" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.335" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
